@@ -21,6 +21,7 @@ public class AbstractComponents {
 	
 	public AbstractComponents(WebDriver driver) {
 		// TODO Auto-generated constructor stub
+		//adding comments for pushing code to github and trigger automatically
 		this.driver=driver;
 		PageFactory.initElements(driver,this);
 	}
